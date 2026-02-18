@@ -1,0 +1,17 @@
+[project]
+name = "sktech-ml-course-2026"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "nbclient>=0.10.4",
+    "nbformat>=5.10.4",
+    "numpy>=2.3.5",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+]
