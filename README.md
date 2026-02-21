@@ -5,6 +5,7 @@ This is a repository containing the homeworks for the Machine Learning course (M
 ## The list of the current homeworks published (will be updated with time):
 
 - Homework 1 - Regression & Classification
+- Homework 2 - Decision Trees & Ensembles
 
 ## Homework instructions
 
