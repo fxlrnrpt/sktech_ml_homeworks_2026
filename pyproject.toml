@@ -9,6 +9,7 @@ dependencies = [
     "nbclient>=0.10.4",
     "nbformat>=5.10.4",
     "numpy>=2.3.5",
+    "torch>=2.10.0",
 ]
 
 [dependency-groups]
