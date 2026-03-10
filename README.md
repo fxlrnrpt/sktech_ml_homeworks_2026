@@ -2,10 +2,12 @@
 
 This is a repository containing the homeworks for the Machine Learning course (MA060018) in Skoltech, which is held at Term 3, 2026.
 
-## The list of the current homeworks published (will be updated with time):
+## The list of the current homeworks published:
 
 - Homework 1 - Regression & Classification
 - Homework 2 - Decision Trees & Ensembles
+- Homework 3 - Deep Learning
+- Homework 4 - Dimensionality Reduction
 
 ## Homework instructions
 
