@@ -1,6 +1,6 @@
 # ML2026 homeworks
 
-This is a repository containing the homeworks for the Machine Learning course (MA060018) in Skoltech, which is held at Term 3, 2026.
+This is a repository containing the homeworks for the Machine Learning course (MA060018) in Skoltech, which is held at Term 3, 2026. Feel free to build upon it and re-use it in any way you want.
 
 ## The list of the current homeworks published:
 
@@ -15,6 +15,19 @@ This is a repository containing the homeworks for the Machine Learning course (M
 2. Run `uv sync` from the root of the folder with this home task
    1. You will have to add `uv` to `Path` on Windows!
 3. Open the jupyter notebook with the task in VS Code and have some fun!
+
+## Note for teachers
+
+For each homework, students received an archive with:
+- hwx_xxxx.ipynb - notebook with tasks
+- x_helpers.py - to keep the main jupyter notebook clean
+- x_test.py - auto-tests to provide students with immediate feedback and to automate grading
+- grade_hw*.py - a script to allow students see what grade they are going to get, prevents them to accidentally use extra files and get 0!
+- test_data/* - pre-generated data for tests
+
+You might notice that we have a separate script for test data generation for each homework - generate_test_data.py. The rationale here is to prevent students from easily reverse engineering the tests and overfitting to them without solving the actual task.
+
+We also conducted a short written in-person quiz after completion of each homework - a must-have in the world where Claude Code exists!
 
 ## Course Description:
 
